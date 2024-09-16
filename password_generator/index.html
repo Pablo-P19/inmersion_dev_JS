@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+    rel="stylesheet">
+  <title>Generador de contraseñas</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <script type="module" src="main.js"></script>
+
+</head>
+
+<body>
+
+  <main class="container">
+    <div class="container__content">
+      <div class="container__info">
+        <div class="container__text">
+          <h1>Generador<span class="container__blue-text"> de Contraseñas</span></h1>
+          <div class="container__area">
+            <label class="text__paragraph">Cantidad
+              <input class="container__input" type="number" id="quantity">
+            </label>
+            <button class="btn" id="generate">Generar</button>
+          </div>
+
+          <div>
+            <p id="error-message">La cantidad de caracteres tiene que ser mayor que 8.</p>
+          </div>
+
+          <div class="container__area">
+            <input class="container__password" type="text" id="password" placeholder="contraseña">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-trash-x clean" id="btn-clean">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 7h16" />
+              <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
+              <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
+              <path d="M10 12l4 4m0 -4l-4 4" />
+            </svg>
+
+          </div>
+          <div id="strength-message">
+            <span id="strength-text">Fortaleza: </span> <span id="strength-level"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
