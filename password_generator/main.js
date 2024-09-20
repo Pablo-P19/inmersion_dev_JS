@@ -55,12 +55,12 @@ function evaluateStrength(password) {
 
 function clean() {
   // Limpiar el campo de la contraseña y otros valores
-  pass.value = '';
-  errorMessage.style.display = 'none';
-  quantity.value = '';
+  pass.value = ''
+  errorMessage.style.display = 'none'
+  quantity.value = ''
 
-  strengthLevel.innerText = '';  // Quitar el nivel de fortaleza
-  strengthLevel.className = '';  // Remover cualquier clase de fortaleza (color)
+  strengthLevel.innerText = ''  // Quitar el nivel de fortaleza
+  strengthLevel.className = ''  // Remover cualquier clase de fortaleza (color)
 }
 
 button.addEventListener('click', generate)
