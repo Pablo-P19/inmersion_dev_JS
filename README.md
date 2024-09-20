@@ -7,3 +7,10 @@ La práctica continua es reconocida como una de las maneras más eficaces de apr
 Se desarrolla un generador de contraseñas al azar que te brindará la opción de crear contraseñas de diversas longitudes y con una variedad de caracteres empleando JavaScript.
 
 > https://passwordgenerate-gamma.vercel.app/
+
+
+### Clase 02 - 18/09/2024
+
+Se propone el desarrollo de una aplicación para el control de gastos mensuales utilizando JavaScript, con el fin de fortalecer la lógica de programación. Este proyecto permitirá registrar y organizar los gastos, proporcionando una visión clara del flujo financiero mensual, promoviendo el aprendizaje de conceptos clave en programación y su aplicación en soluciones prácticas.
+
+> https://expensecontrol.vercel.app/
