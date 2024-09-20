@@ -117,6 +117,6 @@ btnForm.addEventListener('click', clickBtn)
 // Evento para el campo de entrada
 document.getElementById('expenseName').addEventListener('keydown', function (event) {
   if (event.key === 'Enter') {
-    clickBtn();
+    clickBtn()
   }
-});
+})
